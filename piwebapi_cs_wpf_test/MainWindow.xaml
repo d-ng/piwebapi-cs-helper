@@ -1,0 +1,29 @@
+﻿<Window x:Class="piwebapi_cs_wpf_test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="325" Width="500">
+    <Grid Margin="0,0,0,11">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="300" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="User name" />
+        <Label Grid.Row="1" Grid.Column="0" Content="Password" />
+        <Label Grid.Row="2" Grid.Column="0" Content="PI Point path" />
+        <Label Grid.Row="3" Grid.Column="0" Content="Value to write" />
+        <TextBox Grid.Row="0" Grid.Column="1" Margin="3"  Name="userNameTextBox" />
+        <PasswordBox Grid.Row="1" Grid.Column="1" Margin="3" Name="pwBox" />
+        <TextBox Grid.Row="2" Grid.Column="1" Margin="3"  Name="tagTextBox" />
+        <TextBox Grid.Row="3" Grid.Column="1" Margin="3"  Name="valueTextBox" />
+        <Button Grid.Row="4" Grid.Column="1" Margin="5" Content="Write" Name="writeBtn" Click="writeBtn_Click"/>
+        <TextBlock Grid.Row="5" Grid.Column="1" Margin="3" Name="statusTextBlock" TextWrapping="WrapWithOverflow" />
+    </Grid>
+</Window>

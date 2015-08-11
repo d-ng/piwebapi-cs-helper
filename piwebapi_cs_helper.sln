@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piwebapi_cs_helper", "piwebapi_cs_helper\piwebapi_cs_helper.csproj", "{E3E0FCBB-4003-4E65-B829-ED2A125DF81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piwebapi_cs_console_test", "piwebapi_cs_console_test\piwebapi_cs_console_test.csproj", "{A2AFF2D3-6DD1-4611-BB62-1EB6B19B3196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piwebapi_cs_wpf_test", "piwebapi_cs_wpf_test\piwebapi_cs_wpf_test.csproj", "{C5C9A5F5-808E-4563-99F3-CE0E9FF4E6FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3E0FCBB-4003-4E65-B829-ED2A125DF81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E0FCBB-4003-4E65-B829-ED2A125DF81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E0FCBB-4003-4E65-B829-ED2A125DF81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E0FCBB-4003-4E65-B829-ED2A125DF81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AFF2D3-6DD1-4611-BB62-1EB6B19B3196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AFF2D3-6DD1-4611-BB62-1EB6B19B3196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AFF2D3-6DD1-4611-BB62-1EB6B19B3196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AFF2D3-6DD1-4611-BB62-1EB6B19B3196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C9A5F5-808E-4563-99F3-CE0E9FF4E6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C9A5F5-808E-4563-99F3-CE0E9FF4E6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C9A5F5-808E-4563-99F3-CE0E9FF4E6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C9A5F5-808E-4563-99F3-CE0E9FF4E6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
